@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+  font-family: "font";
+  src: url(./assets/file.woff2);
+}
+@font-face {
+  font-family: font2;
+  src: url(./assets/file2.woff2);
+}
+@font-face {
+  font-family: "font3";
+  src: url(./assets/file3.woff2);
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,body{
+  height: 100%;
+  width: 100%;
+}
+#text_main{
+  perspective: 500px;
+  transform-origin: 10% 100%;
+}
+.sem1{
+  perspective: 500px;
+  transform-origin: 10% 100%; 
+}
+.btext{
+  perspective: 500px;
+  transform-origin: 10% 100%;
+}
