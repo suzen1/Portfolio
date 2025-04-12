@@ -34,3 +34,8 @@ html,body{
   perspective: 500px;
   transform-origin: 10% 100%;
 }
+#section2{
+  position: relative;
+  perspective: 1500px;
+  transform-origin: 10% 100%;
+}
