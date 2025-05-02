@@ -28,7 +28,7 @@ const page2 = () => {
         trigger:".useLanuage",
         start:"top center",
         end:"bottom -30%",
-        markers:true,
+        // markers:true,
         scrub:1,
       }
     })
@@ -39,7 +39,7 @@ const page2 = () => {
         trigger:".useLanuage",
         start:"top center",
         end:"bottom 40%",
-        markers:true,
+        // markers:true,
         scrub:1,
       }
     })
